@@ -1,0 +1,39 @@
+body {
+    background-color: #d2d2d2;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    width: 964px;
+}
+
+h1 {
+    color: white;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+header {
+    height: 143px;
+}
+
+/* Square colours */
+/* Light grey */
+nav,
+.signup,
+footer .incuna {
+    background-color: #ebebeb;
+}
+
+/* Salmon */
+.about {
+    background-color: #fef4f4;
+}
+
+/* White */
+.contact,
+footer .copyright {
+    background-color: white;
+}
+
