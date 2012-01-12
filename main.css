@@ -1,39 +1,200 @@
 body {
     background-color: #d2d2d2;
+    color: #666;
     font-family: Helvetica, sans-serif;
-    font-size: 13px;
-    width: 964px;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto;
+    width: 963px;
 }
 
-h1 {
-    color: white;
-    font-size: 16px;
+.clear {
+    clear: both;
+    height: 0px;
+}
+
+a {
+    color: #999;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 0 10px 28px 22px;
 }
 
 h2 {
     font-weight: bold;
+    margin: 27px 10px 28px 22px;
 }
 
-header {
-    height: 143px;
+header .logo {
+    float: left;
+}
+header .logo img {
+    margin: 57px 0 0 18px;
+}
+header .logo h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 18px;
+}
+header nav {
+    font-weight: bold;
+}
+header nav ul {
+    float: right;
+    margin-top: 75px;
+    width: 177px;
+}
+header nav ul li {
+    margin-left: 23px;
+}
+header nav ul li a {
+    color: #666;
 }
 
-/* Square colours */
+.twitter a {
+    color: #c69;
+}
+
+.calendar {
+    color: white;
+}
+.calendar .title {
+    color: #666;
+    width: 158px;
+}
+.small-box {
+    width: 150px;
+}
+.small-box h2 {
+    margin: 27px 10px 2px 20px;
+}
+.small-box span {
+    display: block;
+    font-weight: bold;
+    margin: 0 10px 3px 20px;
+}
+.small-box p {
+    font-weight: bold;
+    margin-top: 25px;
+}
+#next-refresh {
+    color: #666;
+    float: left;
+}
+#next-refresh p {
+    margin-top: 52px;
+}
+#next-refresh a {
+    color: #c69;
+}
+
+#countdown {
+    background-color: #999999;
+    float: left;
+    width: 334px;
+}
+#countdown p {
+    font-weight: bold;
+    line-height: 153px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Small Box Colours */
+.calendar #box-1 {background-color: #c69;}
+.calendar #box-2 {background-color: #666;}
+.calendar #box-3 {background-color: #0cf;}
+
+/* Small Box/Calendar Sub Row Heights */
+.calendar .events,
+#next-refresh,
+#countdown {
+    height: 153px;
+}
+
+footer,
+footer a {
+    color: #999;
+}
+footer .copyright h2 {
+    margin-bottom: 20px;
+}
+footer .incuna p {
+    float: right;
+    margin-top: 27px;
+    margin-right: 25px;
+    width: 275px;
+}
+
+/* Column floats */
+.about,
+.calendar .title,
+.calendar .small-box,
+.twitter,
+#contact,
+#signup,
+footer .copyright {
+    float: left;
+    height: 100%;
+}
+header nav,
+.calendar,
+footer .incuna {
+    float: right;
+    height: 100%;
+}
+
+/* Box colours */
 /* Light grey */
 nav,
-.signup,
+#signup,
 footer .incuna {
     background-color: #ebebeb;
 }
 
 /* Salmon */
-.about {
+.about,
+#next-refresh,
+.twitter {
     background-color: #fef4f4;
 }
 
 /* White */
-.contact,
+.calendar .title,
+#contact,
 footer .copyright {
     background-color: white;
 }
+
+
+/* Column Widths */
+/* Single */
+header .logo,
+.about,
+
+.twitter,
+#contact,
+#signup,
+footer .copyright {
+    width: 321px;
+}
+
+/* Double */
+header nav,
+.calendar,
+footer .incuna {
+    width: 642px;
+}
+
+
+/* Row Heights */
+header {height: 143px;}
+#row-1 {height: 306px;}
+#row-2 {height: 100px;}
+#row-3 {height: 331px;}
+footer {height: 132px;}
 
