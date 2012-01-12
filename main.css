@@ -123,11 +123,15 @@ footer a {
 footer .copyright h2 {
     margin-bottom: 20px;
 }
-footer .incuna p {
+footer .incuna > div {
     float: right;
-    margin-top: 27px;
-    margin-right: 25px;
+}
+footer .incuna p {
+    margin: 27px 25px 15px 22px;
     width: 275px;
+}
+footer .incuna img {
+    margin-left: 22px;
 }
 
 /* Column floats */
