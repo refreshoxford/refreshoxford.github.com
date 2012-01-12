@@ -27,6 +27,10 @@ h2 {
     font-weight: bold;
     margin: 27px 10px 28px 22px;
 }
+h3 {
+    font-weight: bold;
+    margin: 0 10px 0 22px;
+}
 
 header .logo {
     float: left;
@@ -81,6 +85,9 @@ header nav ul li a {
     font-weight: bold;
     margin-top: 25px;
 }
+#box-4 {
+    width: 34px;
+}
 #next-refresh {
     color: #666;
     float: left;
@@ -93,7 +100,7 @@ header nav ul li a {
 }
 
 #countdown {
-    background-color: #999999;
+    background-color: #999;
     float: left;
     width: 334px;
 }
@@ -105,15 +112,23 @@ header nav ul li a {
 }
 
 /* Small Box Colours */
-.calendar #box-1 {background-color: #c69;}
-.calendar #box-2 {background-color: #666;}
-.calendar #box-3 {background-color: #0cf;}
+#box-1, #box-4 {background-color: #c69;}
+#box-2 {background-color: #666;}
+#box-3 {background-color: #0cf;}
 
 /* Small Box/Calendar Sub Row Heights */
 .calendar .events,
 #next-refresh,
 #countdown {
     height: 153px;
+}
+
+.projects li,
+.further-info li {
+    margin: 0 10px 5px 22px;
+}
+.further-info a {
+    color: #c69;
 }
 
 footer,
@@ -138,6 +153,9 @@ footer .incuna img {
 .about,
 .calendar .title,
 .calendar .small-box,
+#row-2 .title,
+#row-2 .projects,
+#row-2 .further-info,
 .twitter,
 #contact,
 #signup,
@@ -163,12 +181,15 @@ footer .incuna {
 /* Salmon */
 .about,
 #next-refresh,
+#row-2 .projects,
+#row-2 .further-info,
 .twitter {
     background-color: #fef4f4;
 }
 
 /* White */
 .calendar .title,
+#row-2 .title,
 #contact,
 footer .copyright {
     background-color: white;
@@ -179,7 +200,9 @@ footer .copyright {
 /* Single */
 header .logo,
 .about,
-
+#row-2 .title,
+#row-2 .projects,
+#row-2 .further-info,
 .twitter,
 #contact,
 #signup,
@@ -198,7 +221,7 @@ footer .incuna {
 /* Row Heights */
 header {height: 143px;}
 #row-1 {height: 306px;}
-#row-2 {height: 100px;}
+#row-2 {height: 271px;}
 #row-3 {height: 331px;}
 footer {height: 132px;}
 
