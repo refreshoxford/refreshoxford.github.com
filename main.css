@@ -59,7 +59,7 @@ header nav ul li a {
     color: #666;
 }
 
-.twitter a {
+#twitter a {
     color: #c69;
 }
 
@@ -131,6 +131,22 @@ header nav ul li a {
     color: #c69;
 }
 
+#twitter h2 {
+    margin-bottom: 23px;
+}
+#twitter .twtr-doc {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+#twitter .twtr-hd,
+#twitter .twtr-ft {
+    display: none;
+}
+#twitter .twtr-bd {
+    margin: 0 10px 0 15px;
+}
+
 footer,
 footer a {
     color: #999;
@@ -156,7 +172,7 @@ footer .incuna img {
 #row-2 .title,
 #row-2 .projects,
 #row-2 .further-info,
-.twitter,
+#twitter,
 #contact,
 #signup,
 footer .copyright {
@@ -183,7 +199,7 @@ footer .incuna {
 #next-refresh,
 #row-2 .projects,
 #row-2 .further-info,
-.twitter {
+#twitter {
     background-color: #fef4f4;
 }
 
@@ -203,7 +219,7 @@ header .logo,
 #row-2 .title,
 #row-2 .projects,
 #row-2 .further-info,
-.twitter,
+#twitter,
 #contact,
 #signup,
 footer .copyright {

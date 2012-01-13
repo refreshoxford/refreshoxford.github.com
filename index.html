@@ -5,6 +5,7 @@
     <link type="text/css" rel="stylesheet" href="main.css">
 
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js"></script>
     <script type="text/javascript" src="jquery.countdown.pack.js"></script>
     <script type="text/javascript" src="main.js"></script>
 
@@ -86,8 +87,35 @@
         </div>
     </div>
     <div id="row-3">
-        <div class="twitter">
+        <div id="twitter">
             <h2>Twitter Feed <a href="https://twitter.com/refreshoxford">@refreshoxford</a></h2>
+            <script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'profile',
+                  rpp: 4,
+                  interval: 30000,
+                  width: 'auto',
+                  height: 257,
+                  theme: {
+                    shell: {
+                      background: '#fef4f4',
+                      color: '#666666'
+                    },
+                    tweets: {
+                      background: '#fef4f4',
+                      color: '#666666',
+                      links: '#00ccff'
+                    }
+                  },
+                  features: {
+                    scrollbar: true,
+                    loop: false,
+                    live: true,
+                    behavior: 'default'
+                  }
+                }).render().setUser('refreshoxford').start();
+            </script>
         </div>
         <div id="contact">
             <h2>Contact</h2>

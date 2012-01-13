@@ -6,3 +6,4 @@ jQuery(document).ready(function () {
     }
     $('#countdown p').countdown(options);
 });
+
