@@ -207,6 +207,7 @@ article .title,
 /* White */
 .calendar .title,
 #row-2 .title,
+article .blurb,
 article .info,
 #contact,
 footer .copyright {
@@ -250,7 +251,7 @@ footer {height: 132px;}
 article .title,
 article .blurb,
 article .info {
-    border-bottom: 1px solid #ebebeb;
+    /* border-bottom: 1px solid #ebebeb; */
     float: left;
     height: 100%;
     padding-bottom: 20px;
