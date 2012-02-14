@@ -68,7 +68,7 @@ header nav ul li a {
 }
 .calendar .title {
     color: #666;
-    width: 158px;
+    width: 171px;
 }
 .small-box {
     width: 150px;
@@ -86,7 +86,7 @@ header nav ul li a {
     margin-top: 25px;
 }
 #box-4 {
-    width: 34px;
+    width: 21px;
 }
 #next-refresh {
     color: #666;
@@ -102,9 +102,11 @@ header nav ul li a {
 #countdown {
     background-color: #999;
     float: left;
-    width: 334px;
+    width: 321px;
 }
-#countdown p {
+#countdown p,
+#countdown span {
+    display: block;
     font-weight: bold;
     line-height: 153px;
     margin: 0;
@@ -127,6 +129,7 @@ header nav ul li a {
 .further-info li {
     margin: 0 10px 5px 22px;
 }
+.projects a,
 .further-info a {
     color: #c69;
 }
@@ -200,7 +203,6 @@ footer .incuna {
 /* Salmon */
 .about,
 #next-refresh,
-#row-2 .projects,
 #row-2 .further-info,
 article .title,
 #twitter {
