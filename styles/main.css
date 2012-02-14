@@ -230,6 +230,7 @@ header .logo,
 #twitter,
 article header,
 article section,
+article .links,
 #contact,
 #signup,
 footer .copyright {
@@ -280,10 +281,21 @@ article section {
     height: 100%;
 }
 
-#rpurrg {height: 300px;}
-#tldw {height: 221px;}
-#cbv {height: 275px;}
-#typography {height: 200px;}
-#oed {height: 150px;}
-#apachewookie {height: 150px;}
-#nanode {height: 230px;}
+#rpurrg {height: 310px;}
+#tldw {height: 231px;}
+#cbv {height: 285px;}
+#typography {height: 230px;}
+#oed {height: 230px;}
+#apachewookie {height: 230px;}
+#nanode {height: 250px;}
+
+article .links {text-align: center;}
+article .links div {
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+}
+article .links a {display: block;}
+#apachewookie .links {
+    margin-top: 200px;
+}
