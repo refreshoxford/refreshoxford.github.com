@@ -199,6 +199,7 @@ footer .incuna {
 #next-refresh,
 #row-2 .projects,
 #row-2 .further-info,
+article .title,
 #twitter {
     background-color: #fef4f4;
 }
@@ -206,6 +207,7 @@ footer .incuna {
 /* White */
 .calendar .title,
 #row-2 .title,
+article .info,
 #contact,
 footer .copyright {
     background-color: white;
@@ -220,6 +222,8 @@ header .logo,
 #row-2 .projects,
 #row-2 .further-info,
 #twitter,
+article header,
+article section,
 #contact,
 #signup,
 footer .copyright {
@@ -241,3 +245,57 @@ header {height: 143px;}
 #row-3 {height: 331px;}
 footer {height: 132px;}
 
+
+/* Hack Day Page */
+article .title,
+article .blurb,
+article .info {
+    border-bottom: 1px solid #ebebeb;
+    float: left;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+article .title a,
+article .title .no-twitter {
+    color: #c69;
+    margin-left: 22px;
+}
+
+article .blurb p:first-of-type {
+    margin-top: 20px;
+}
+
+article img {
+    margin: 20px;
+    width: 280px;
+}
+
+#rpurrg header,
+#rpurrg section {
+    height: 300px;
+}
+#tldw header,
+#tldw section {
+    height: 221px;
+}
+#cbv header,
+#cbv section {
+    height: 275px;
+}
+#typography header,
+#typography section {
+    height: 200px;
+}
+#oed header,
+#oed section {
+    height: 150px;
+}
+#apachewookie header,
+#apachewookie section {
+    height: 150px;
+}
+#nanode header,
+#nanode section {
+    height: 230px;
+}
