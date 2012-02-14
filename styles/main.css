@@ -256,10 +256,8 @@ footer {height: 132px;}
 article .title,
 article .blurb,
 article .info {
-    /* border-bottom: 1px solid #ebebeb; */
     float: left;
     height: 100%;
-    padding-bottom: 20px;
 }
 
 article .title a,
@@ -277,31 +275,15 @@ article img {
     width: 280px;
 }
 
-#rpurrg header,
-#rpurrg section {
-    height: 300px;
+article header,
+article section {
+    height: 100%;
 }
-#tldw header,
-#tldw section {
-    height: 221px;
-}
-#cbv header,
-#cbv section {
-    height: 275px;
-}
-#typography header,
-#typography section {
-    height: 200px;
-}
-#oed header,
-#oed section {
-    height: 150px;
-}
-#apachewookie header,
-#apachewookie section {
-    height: 150px;
-}
-#nanode header,
-#nanode section {
-    height: 230px;
-}
+
+#rpurrg {height: 300px;}
+#tldw {height: 221px;}
+#cbv {height: 275px;}
+#typography {height: 200px;}
+#oed {height: 150px;}
+#apachewookie {height: 150px;}
+#nanode {height: 230px;}
